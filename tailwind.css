@@ -1235,7 +1235,7 @@ footer {
 
 /* Mobile work spacing */
 
-@media (max-width: 468px) {
+@media (max-width: 767px) {
   .custom-opacity {
     opacity: 0;
   }
@@ -1254,11 +1254,13 @@ footer {
   }
 }
 
+/*
 @media screen and (min-width: 468px) and (max-width: 768px) {
-  #my-work {
-    margin-top: 25rem;
-  }
+    #my-work {
+        margin-top: 25rem;
+    }
 }
+*/
 
 /* Tablet work spacing */
 
@@ -1268,9 +1270,27 @@ footer {
   }
 }
 
+@media screen and (min-width: 821px) and (max-width: 1000px) {
+  #my-work {
+    margin-top: 0rem;
+  }
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1200px) {
+  #my-work {
+    margin-top: 7rem;
+  }
+}
+
+@media screen and (min-width: 1500px) and (max-width: 1749px) {
+  #my-work {
+    margin-top: 25rem;
+  }
+}
+
 /* Desktop work spacing */
 
-@media (min-width: 1800px) {
+@media (min-width: 1750px) {
   #my-work {
     margin-top: 35rem;
   }
