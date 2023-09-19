@@ -1241,23 +1241,32 @@ footer {
 
 /* Mobile work spacing */
 
-@media (max-width: 768px) {
+@media (max-width: 468px) {
   .custom-opacity {
-    opacity: 0.72;
+    opacity: 0;
   }
 
   #my-work {
-    margin-top: 20rem;
+    margin-top: 10rem;
+  }
+
+  .image-container {
+    display: none;
+    width: 0%;
+  }
+
+  #backgroundImage {
+    display: none;
   }
 }
 
-@media screen and (min-width: 468px) and (max-width: 540px) {
+@media screen and (min-width: 468px) and (max-width: 768px) {
   #my-work {
     margin-top: 25rem;
   }
 }
 
-/* Media query for screens with a width of exactly 768px */
+/* Tablet work spacing */
 
 @media screen and (min-width: 768px) and (max-width: 820px) {
   #my-work {
