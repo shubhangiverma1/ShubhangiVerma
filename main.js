@@ -40,24 +40,3 @@ window.addEventListener("resize", handleWindowResize);
 
 // Initial check for screen width
 handleWindowResize();
-
-/*
-function setMarginTop() {
-    const image = document.querySelector('.image-container img');
-    const myWork = document.getElementById('my-work');
-    const desiredMargin = 256; // Set your desired margin in pixels
-
-    if (image && myWork) {
-      const imageBottom = image.getBoundingClientRect().bottom;
-      const myWorkTop = myWork.getBoundingClientRect().top;
-      const currentMargin = myWorkTop - imageBottom;
-
-      if (currentMargin < desiredMargin) {
-        myWork.style.marginTop = `${desiredMargin}px`;
-      }
-    }
-  }
-
-  window.addEventListener('load', setMarginTop);
-  window.addEventListener('resize', setMarginTop);
-  */
